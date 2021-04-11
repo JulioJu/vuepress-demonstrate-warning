@@ -4,8 +4,10 @@ lang: en-US
 permalink: /
 ---
 
-Hello from README.md
-
-<RouterLink to="./test2">
-  Link to page "test2"
-</RouterLink>
+<Test >
+  <template v-slot:test>
+    <p>
+      Hello from README.md slot
+    </p>
+  </template>
+</Test >
